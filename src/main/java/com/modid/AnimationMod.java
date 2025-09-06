@@ -15,6 +15,6 @@ public class AnimationMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-        ModConfig.load();
+        ModConfig.INSTANCE.setSwingDurationMultiplier(2.0F); // 2x slower swing
 	}
 }

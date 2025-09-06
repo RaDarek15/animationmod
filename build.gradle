@@ -34,6 +34,8 @@ dependencies {
 
     // Local GeckoLib jar
     modImplementation name: 'geckolib-fabric-1.21.5-5.1.0'
+    modImplementation name: 'cloth-config-18.0.145-fabric'
+
 }
 
 processResources {
