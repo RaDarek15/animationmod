@@ -20,7 +20,10 @@
 		],
 		"fabric-datagen": [
 			"com.modid.AnimationModDataGenerator"
-		]
+		],
+        "modmenu": [
+          "com.modid.AnimationModMenuIntegration"
+        ]
 	},
 	"mixins": [
 		"animationmod.mixins.json"
